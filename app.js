@@ -19,10 +19,11 @@ function renderVideo(result){
     let thumbnail = result.snippet.thumbnails.medium.url;
     let title =  result.snippet.title;
     let channel = result.snippet.channelTitle;
+    let channelID = result.snippet.channelId;
     return `<div class="item">
     <a href="https://www.youtube.com/watch?v=${ID}"><img src=${thumbnail} alt=""></a>
     <h4>${title}</h4>
-    <span>${channel}</span>
+    <a href ="https://www.youtube.com/channel/${channelID}" ><span>${channel}</span></a>
     </div>`;
 }
 function displayData(data){
