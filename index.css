@@ -1,0 +1,14 @@
+.js-form {
+    margin-left: 20px;
+}
+.js-display-result {
+    margin-top: 50px;
+}
+.item {
+    display: inline-block;
+    margin: 30px;
+    width: 25%;
+}
+.item span {
+    margin-bottom: 20px;
+}
